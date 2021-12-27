@@ -40,4 +40,4 @@ run:
   - |
     mvn -B -f git/pom.xml clean compile
     mvn -B -f git/pom.xml clean package
-    #    cp git/target/SampleWebApp.war image/SampleWebApp.war
+    cp git/target/SampleWebApp.war image/SampleWebApp.war
