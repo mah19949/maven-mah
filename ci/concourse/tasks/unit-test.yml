@@ -12,7 +12,8 @@ image_resource:
   type: registry-image
   source:
     repository: maven
-    tag: 3.6.3
+#    tag: 3.6.3
+    tag: 3.3-jdk-8
 
 # Cache the Maven repository directory
 caches:

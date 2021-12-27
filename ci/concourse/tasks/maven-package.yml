@@ -11,7 +11,8 @@ image_resource:
   type: registry-image
   source:
     repository: maven
-    tag: 3.6.3
+#    tag: 3.6.3
+    tag: 3.3-jdk-8
 
 # Cache Maven artifacts so we don't download the internet again
 # Caches are scoped to a particular task name inside of a pipeline's job.
