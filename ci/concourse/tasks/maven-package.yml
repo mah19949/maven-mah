@@ -39,4 +39,4 @@ run:
   - |
     mvn -B -f git/pom.xml compile
     mvn -B -f git/pom.xml package
-    cp git/target/SampleWebApp-1.0-SNAPSHOT.jar image/SampleWebApp-1.0-SNAPSHOT.jar
+    cp git/target/SampleWebApp.war image/SampleWebApp.war
